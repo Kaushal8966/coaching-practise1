@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #222;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+nav .menu a {
+    text-decoration: none;
+    font-family: cursive;
+    color: #ff2b85;
+    font-size: 20px;
+    margin: 0 10px;
+    position: relative;
+    display: inline;
+    /* background: white;
+    border-radius: 10px;
+    width: 30px;
+    box-shadow: 4px 4px 4px grey; */
+    /* transform-box: 0.4s; */
+}
+
+.banner {
+    background-image: url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 250px;
+    font-style: italic;
+}
+
+.about {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    word-spacing: 3px;
+    text-shadow: 3px 3px 8px purple;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+
+.about p {
+    font-size: 20px;
+    font-family: monospace;
+    padding: 0px 100px;
+    line-height: 30px;
+    word-spacing: 5px;
+    margin-bottom: 36px;
+}
+
+.about button {
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    background: pink;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 3px 3px 6px rgb(236, 14, 51);
+    border: none;
+}
+
+.about button:hover {
+    background: linear-gradient(to right, black, yellow, black);
+}
+.press{
+    background-image: url(../image/download\ \(1\).jpg);
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.press h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    word-spacing: 3px;
+    text-shadow: 3px 3px 8px purple;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;  
+}
+.press p{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 0px 100px;
+    line-height: 30px;
+    word-spacing: 5px;
+    margin-bottom: 36px;
+}
+.press button{
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    background: pink;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 3px 3px 6px rgb(236, 14, 51);
+    border: none;
+}
+.press button:hover {
+    background: linear-gradient(to right, black, yellow, black);
+}
+.team{
+    background-image: url(../image/download\ \(2\).jpg);
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.team h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    word-spacing: 3px;
+    text-shadow: 3px 3px 8px purple;
+    margin-bottom: 40px;
+    letter-spacing: 4px;  
+    text-transform: uppercase;
+}
+.team p{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 0px 100px;
+    line-height: 30px;
+    word-spacing: 5px;
+    margin-bottom: 36px;
+}
+.team button{
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    background: pink;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 3px 3px 6px rgb(236, 14, 51);
+    border: none;
+}
+.team button:hover {
+    background: linear-gradient(to right, black, yellow, black);
+}
+.contact{
+    /* background-image: url(../image/download\ \(3\).jpg); */
+    background: #ff2b85;
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.contact h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    word-spacing: 3px;
+    text-shadow: 3px 3px 8px purple;
+    margin-bottom: 40px;
+    letter-spacing: 4px;  
+    text-transform: uppercase;
+}
+.contact p{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 0px 100px;
+    line-height: 30px;
+    word-spacing: 5px;
+    margin-bottom: 36px;
+}
+.contact button{
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    background: pink;
+    font-size: 20px;
+    color: aliceblue;
+    box-shadow: 3px 3px 6px rgb(236, 14, 51);
+    border: none;
+}
+.contact button:hover {
+    background: linear-gradient(to right, black, yellow, black);
+}
+footer {
+    width: 100%;
+    height: 100%px;
+    background: black;
+    padding: 80px 3% 70px;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 3.5rem; */
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-bottom: 0px;
+    /* color: white; */
+}
+.footer-content h3{
+color: white;
+margin-top: 1.5rem;
+font-size: 20px;
+}
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all.40s ease;
+    text-decoration: none;
+}
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(5px);
+    color: white;
+}
+.footer-content p{
+    color : white;
+    font-size: 16px;
+    line-height:38px;
+    margin: 20px 0;
+}

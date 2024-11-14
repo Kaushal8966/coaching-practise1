@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body {
+    background-color: rgb(5, 0, 17);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px -1px;
+    width: 100%;
+    height: 66px;
+    /* background: rgb(112, 49, 4); */
+    background-size: cover;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    color: white;
+}
+
+nav .logo {
+    padding: 0px 51px;
+
+}
+
+.logo h2 {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .menu {
+    padding: 0px 51px;
+
+}
+
+nav .menu a {
+    padding: 0px 5px;
+    color: #000;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:hover {
+    color: red;
+}
+
+.support {
+    margin-top: 200px;
+    margin-left: 37px
+}
+
+.support h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.support h1 span {
+    color: orange;
+}
+
+.support p {
+    color: white;
+    line-height: 27px;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.support div button {
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: medium;
+    margin-top: 14px;
+}
+
+.support div button a {
+    color: ;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.image {
+    /* display: flex;
+    justify-content: end; */
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    background-size: cover;
+}
+
+.image img {
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    filter: drop-shadow(30%);
+    background-image: ;
+}
+
+.image:hover .shape {
+    bottom: 40px;
+}
+
+.image:hover .boy {
+    left: 40px;
+}

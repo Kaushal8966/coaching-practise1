@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background: linear-gradient( to right ,rgb(245,130,130),rgb(180,180 ,180)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url(../image/53968764039_5ee5b01e53_6k.jpg) ;
+    /* background-size: cover; */
+    width:90%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 25%;
+    /* margin-top: 70px;  */
+    /* padding-bottom: 900px; */
+}
+
+body .div {
+    background-color: aqua;
+    /* border: 4px solid black; */
+    width: 400px;
+    height: 450px;
+   background-position: left;
+    margin-top: 150px;
+    margin-left: 512px;
+    background: linear-gradient(rgba(100, 0, 0, 0.2), rgba(0, 0, 100, 0.2));
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+    align-items: right;
+    padding: 30px 40px;
+    backdrop-filter: blur;
+}
+
+div .h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+div .username {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    /* background: red; */
+    border-radius: 0;
+}
+.username i{
+    
+}
+.username input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+}
+
+.username input::placeholder {
+    color: white;
+}
+
+.div .remember {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin: -15px -36px 15px;
+}
+
+.remember input {
+    accent-color: white;
+    margin-right: -26px;
+}
+
+.remember a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.div .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.div .btn:hover{
+    background: linear-gradient(to right,yellow,black,yellow,black,yellow,black);
+}
+
+.div .Register {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.Register p a {
+    color: white;
+    text-decoration: none;
+}
